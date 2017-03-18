@@ -1,0 +1,128 @@
+/*---------公共样-----式*/
+body{
+	/*background: #eff0f4;*/
+}
+.ba-efeef4{background: #efeef4;width: 100%;height: 0.1rem;}
+/*-------公共头部-------*/
+
+
+/*-----------我的移动生活----------*/
+.head{
+	display: -webkit-box;
+	display: -moz-box;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.head img{
+	width: 0.59rem;
+	height: 0.59rem;
+	margin-left: 0.2rem;
+	margin-top: 0.13rem;
+	margin-right: 0.23rem;
+	margin-bottom: 0.13rem;
+}
+
+.nameBox{
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+}
+
+.nameBox h2{
+	margin-top: 0.21rem;
+	margin-bottom: 0.11rem;
+	font-size: 0.16rem;
+	color: #323232;
+	display: inline-block;
+}
+
+.nameBox p{
+	font-size: 0.14rem;
+	color: #999;
+	margin-bottom: 0.27rem;
+}
+
+.classify{
+	width: 100%;
+	padding-top: 0.12rem;
+	display: inline-block;
+}
+.classify div{
+	float: left;
+	height: 0.47rem;
+	width: 33.33%;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 0.32rem;
+	font-size: 0.14rem;
+	color: #262424;
+	border-right: 1px solid #e1e1e1;
+	margin-bottom: 0.1rem;
+	background: url('../../imgs/pe-jifen.png') no-repeat center 0.1rem;
+	background-size:0.25rem 0.22rem ;
+	
+}
+
+.classify div:last-child{
+	border-right: none;
+	
+}
+.classify .hongbao{
+	background-image:url('../../imgs/pe-hongbao.png') ;
+	background-size: 0.2rem 0.21rem;
+}
+
+.classify .youhui{
+	background-image:url('../../imgs/pe-youhuijuan.png') ;
+	background-size: 0.28rem 0.21rem;
+}
+
+
+.entryList{
+	padding-left:0.19rem ;
+}
+
+.entryList li{
+	height: 0.44rem;
+	line-height: 0.44rem;
+	padding-left: 0.3rem;
+	padding-right: 0.15rem;
+	font-size: 0.15rem;
+	color: #323232;
+	border-bottom: 1px solid #F8F8F8;
+	background: url('../../imgs/pe-dingdan.png') no-repeat 0.01rem 0.13rem;
+	background-size: 0.17rem 0.2rem;
+}
+
+.entryList li.none{
+	border-bottom: none;
+}
+
+.entryList li i{
+	width: 0.08rem;
+	height: 0.12rem;
+	background: url('../../imgs/izuojian.png') no-repeat;
+	background-size:100% ;
+	margin-top: 0.18rem;
+}
+
+.entryList li.shoucang{
+	background-image:url('../../imgs/pe-shoucang.png') ;
+	background-size:0.17rem 0.18rem ;
+}
+
+.entryList li.dianping{
+	background-image:url('../../imgs/pe-dianping.png') ;
+	background-size:0.16rem 0.18rem ;
+}
+.entryList li.dizhi{
+	background-image:url('../../imgs/pe-dizhi.png') ;
+	background-size:0.17rem 0.17rem ;
+}
+.entryList li.guanyu{
+	background-image:url('../../imgs/pe-guanyu.png') ;
+	background-size:0.18rem 0.18rem ;
+}
+.entryList li.wenti{
+	background-image:url('../../imgs/pe-wenti.png') ;
+	background-size:0.18rem 0.18rem ;
+}
